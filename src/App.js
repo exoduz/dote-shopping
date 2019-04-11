@@ -16,7 +16,7 @@ class App extends Component {
 				</div>
 
 				<footer>
-
+					Coded by <a href="https://robinjulius.com" target="_blank">Robin Julius</a> for <a href="https://doteshopping.com" target="_blank">Dote Shopping, Inc</a>.
 				</footer>
 			</div>
 		);
