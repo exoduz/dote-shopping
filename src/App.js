@@ -17,7 +17,9 @@ class App extends Component {
 		return (
 			<div className="wrapper">
 				<header>
-					<img src={ logo } alt="Dote Logo" />
+					<a href="https://doteshopping.com" target="_blank" rel="noopener noreferrer">
+						<img src={ logo } alt="Dote Logo" />
+					</a>
 				</header>
 
 				<div className="content">
