@@ -18,6 +18,7 @@
 
 .card {
   flex-basis: 100%;
+  position: relative;
   margin-top: 10px;
   margin-bottom: 32px;
 }
@@ -64,6 +65,18 @@
   color: #8D9494;
   font-size: 1.2rem;
   text-decoration: line-through;
+}
+
+.card .card__discount {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 0 8px;
+  background-color: #2585E2;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 footer {
