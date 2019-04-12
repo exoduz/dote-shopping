@@ -7,13 +7,7 @@ import { data } from './data/data-stub';
 import './styles/App.css';
 
 class App extends Component {
-	componentWillMount() {
-
-	}
-
 	render() {
-		console.log( 'data', data );
-
 		return (
 			<div className="wrapper">
 				<header>

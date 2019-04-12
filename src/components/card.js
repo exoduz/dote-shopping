@@ -1,5 +1,10 @@
 import React from 'react';
-
+/**
+ * Get the percentage discount of price from msrp.
+ * @param  {Number} price The price of the item.
+ * @param  {Number} msrp  The MSRP of the item.
+ * @return {XML}
+ */
 const discountPercentage = ( price, msrp ) => {
 	if ( ! price || ! msrp ) {
 		return;
@@ -14,6 +19,11 @@ const discountPercentage = ( price, msrp ) => {
 	return <span className="card__discount">{ `${ discount }% off` }</span>;
 }
 
+/**
+ * Output a card.
+ * @param  {Object} options.data The item data.
+ * @return {XML}
+ */
 const Card = ( { data } ) => {
 	return (
 		<div className="card">
